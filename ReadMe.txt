@@ -1,5 +1,5 @@
 
-## Shadcn/UI tutorial (freecodecamp)
+## Shadcn/UI tutorial (freeCodeCamp)
 
 # shadcn/ui - https://ui.shadcn.com/
 
@@ -7,4 +7,8 @@
 
 # Accordion (0:03:35)
 
-# 
+# A vertically stacked set of interactive headings that each reveal a section of content.
+
+# Alert (0:11:16)
+
+# It displays a callout for user attention.
