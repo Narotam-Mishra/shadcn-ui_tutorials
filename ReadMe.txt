@@ -12,3 +12,5 @@
 # Alert (0:11:16)
 
 # It displays a callout for user attention.
+
+## Alert Dialog (25:51)
