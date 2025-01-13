@@ -14,3 +14,9 @@
 # It displays a callout for user attention.
 
 ## Alert Dialog (25:51)
+
+# A modal dialog that interrupts the user with important content and expects a response.
+
+## Image Ratio (39:15)
+
+# Displays content within a desired ratio.

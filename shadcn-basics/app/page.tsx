@@ -1,8 +1,9 @@
 "use client"
 
-import MyAlertDialog from "./shadcn-components/MyAlertDialog";
+// import MyAlertDialog from "./shadcn-components/MyAlertDialog";
 
-import MyAccordion from "./shadcn-components/MyAccordion";
+// import MyAccordion from "./shadcn-components/MyAccordion";
+import MyAspectRatio from "./shadcn-components/MyAspectRatio";
 // import MyAlert from "./shadcn-components/MyAlert";
 
 export default function Home() {
@@ -13,7 +14,8 @@ export default function Home() {
       {/* {
         balance ? <MyAlert /> : ""
       } */}
-      <MyAlertDialog title="Open" content="Are you sure?" component={<MyAccordion/>} />
+      {/* <MyAlertDialog title="Open" content="Are you sure?" component={<MyAccordion/>} /> */}
+      <MyAspectRatio />
     </div>
   );
 }
