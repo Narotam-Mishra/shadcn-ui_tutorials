@@ -20,3 +20,7 @@
 ## Image Ratio (39:15)
 
 # Displays content within a desired ratio.
+
+## Avatar (57:27)
+
+# 
