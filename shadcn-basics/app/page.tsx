@@ -1,5 +1,7 @@
 "use client"
 
+import MyBadge from "./shadcn-components/MyBadge";
+
 // import MyAvatar from "./shadcn-components/MyAvatar";
 
 // import { useSearchParams } from "next/navigation";
@@ -23,6 +25,7 @@ export default function Home() {
       {/* <MyAlertDialog title="Open" content="Are you sure?" component={<MyAccordion/>} /> */}
       {/* <MyAspectRatio /> */}
       {/* <MyAvatar /> */}
+      <MyBadge title='ShadCN UI' variant="destructive" />
     </div>
   );
 }

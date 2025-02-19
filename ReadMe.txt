@@ -28,3 +28,7 @@
 # An image element with a fallback for representing the user.
 
 ## Badge (1:01:21)
+
+# Displays a badge or a component that looks like a badge.
+
+# 
