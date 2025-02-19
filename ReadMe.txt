@@ -21,6 +21,10 @@
 
 # Displays content within a desired ratio.
 
+# `ratio` property of `AspectRatio` component and `width` property of `Image` component are mutually exclusive meaning they cann't exist together at a same time. 
+
 ## Avatar (57:27)
 
-# 
+# An image element with a fallback for representing the user.
+
+## Badge (1:01:21)
