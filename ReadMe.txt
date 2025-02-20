@@ -31,4 +31,10 @@
 
 # Displays a badge or a component that looks like a badge.
 
-# 
+# Breadcrumb (1:12:05)
+
+# Displays the path to the current resource using a hierarchy of links.
+
+# Button (1:28:18)
+
+# Displays a button or a component that looks like a button.

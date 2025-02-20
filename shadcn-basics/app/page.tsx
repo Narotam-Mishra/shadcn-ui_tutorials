@@ -1,6 +1,8 @@
 "use client"
 
-import MyBadge from "./shadcn-components/MyBadge";
+// import MyBreadCrumb from "./shadcn-components/MyBreadCrumb";
+
+// import MyBadge from "./shadcn-components/MyBadge";
 
 // import MyAvatar from "./shadcn-components/MyAvatar";
 
@@ -10,13 +12,14 @@ import MyBadge from "./shadcn-components/MyBadge";
 // import MyAccordion from "./shadcn-components/MyAccordion";
 // import MyAspectRatio from "./shadcn-components/MyAspectRatio";
 // import MyAlert from "./shadcn-components/MyAlert";
+import MyButton from "./shadcn-components/MyButton";
 
 export default function Home() {
   // const params = useSearchParams()
   // const balance = params.get("balance");
 
   return (
-    <div className="w-[200px]">
+    <div className="w-[350px]">
       {/* <MyAccordion /> */}
       {/* <MyAlert /> */}
       {/* {
@@ -25,7 +28,9 @@ export default function Home() {
       {/* <MyAlertDialog title="Open" content="Are you sure?" component={<MyAccordion/>} /> */}
       {/* <MyAspectRatio /> */}
       {/* <MyAvatar /> */}
-      <MyBadge title='ShadCN UI' variant="destructive" />
+      {/* <MyBadge title='ShadCN UI' variant="destructive" /> */}
+      {/* <MyBreadCrumb /> */}
+      <MyButton title="Save" />
     </div>
   );
 }
