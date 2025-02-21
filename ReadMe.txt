@@ -50,3 +50,11 @@
 # The Carousel component is a wrapper around React component. It provides a smooth and customizable way to display multiple items in a sliding manner.
 
 # Check Box (2:37:36)
+
+# A control that allows the user to toggle between checked and not checked.
+
+# Collapsible (2:46:26)
+
+# An interactive component which expands/collapses a panel.
+
+# More info about Accordion vs Collapsible component - https://chatgpt.com/share/67b89b35-23f0-8004-966d-ebeb7667611c
