@@ -12,7 +12,8 @@
 // import MyAccordion from "./shadcn-components/MyAccordion";
 // import MyAspectRatio from "./shadcn-components/MyAspectRatio";
 // import MyAlert from "./shadcn-components/MyAlert";
-import MyButton from "./shadcn-components/MyButton";
+// import MyButton from "./shadcn-components/MyButton";
+import MyCalender from "./shadcn-components/MyCalender";
 
 export default function Home() {
   // const params = useSearchParams()
@@ -30,7 +31,8 @@ export default function Home() {
       {/* <MyAvatar /> */}
       {/* <MyBadge title='ShadCN UI' variant="destructive" /> */}
       {/* <MyBreadCrumb /> */}
-      <MyButton title="Save" />
+      {/* <MyButton title="Save" /> */}
+      <MyCalender />
     </div>
   );
 }
