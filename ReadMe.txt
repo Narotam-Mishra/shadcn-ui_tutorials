@@ -49,4 +49,4 @@
 
 # The Carousel component is a wrapper around React component. It provides a smooth and customizable way to display multiple items in a sliding manner.
 
-# 
+# Check Box (2:37:36)

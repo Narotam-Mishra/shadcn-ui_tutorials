@@ -1,5 +1,7 @@
 "use client"
 
+// import MyCheckbox from "./shadcn-components/MyCheckbox";
+
 // import MyCarousel3 from "./shadcn-components/MyCarousel3";
 
 // import MyCarousel2 from "./shadcn-components/MyCarousel2";
@@ -46,6 +48,7 @@ export default function Home() {
       {/* <MyCarousel /> */}
       {/* <MyCarousel2 /> */}
       {/* <MyCarousel3 /> */}
+      {/* <MyCheckbox /> */}
     </div>
   );
 }
