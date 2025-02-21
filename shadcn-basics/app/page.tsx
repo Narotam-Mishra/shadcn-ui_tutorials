@@ -1,8 +1,14 @@
 "use client"
 
-import MyButton from "./shadcn-components/MyButton";
-import MyCalender from "./shadcn-components/MyCalender";
-import MyCard from "./shadcn-components/MyCard";
+// import MyCarousel3 from "./shadcn-components/MyCarousel3";
+
+// import MyCarousel2 from "./shadcn-components/MyCarousel2";
+
+// import MyCarousel from "./shadcn-components/MyCarousel";
+
+// import MyButton from "./shadcn-components/MyButton";
+// import MyCalender from "./shadcn-components/MyCalender";
+// import MyCard from "./shadcn-components/MyCard";
 
 // import MyBreadCrumb from "./shadcn-components/MyBreadCrumb";
 
@@ -23,7 +29,7 @@ export default function Home() {
   // const balance = params.get("balance");
 
   return (
-    <div className="w-screen h-screen flex justify-center items-center">
+    <div className="w-screen h-auto flex flex-col gap-5 pt-20 pb-20 p-4 justify-center items-center">
       {/* <MyAccordion /> */}
       {/* <MyAlert /> */}
       {/* {
@@ -36,7 +42,10 @@ export default function Home() {
       {/* <MyBreadCrumb /> */}
       {/* <MyButton title="Save" /> */}
       {/* <MyCalender /> */}
-      <MyCard title="Card" description="We are using Card Component" content={<MyCalender />} footer={<MyButton title="Button" />}/>
+      {/* <MyCard title="Card" description="We are using Card Component" content={<MyCalender />} footer={<MyButton title="Button" />}/> */}
+      {/* <MyCarousel /> */}
+      {/* <MyCarousel2 /> */}
+      {/* <MyCarousel3 /> */}
     </div>
   );
 }
