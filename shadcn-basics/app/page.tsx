@@ -1,5 +1,9 @@
 "use client"
 
+import MyButton from "./shadcn-components/MyButton";
+import MyCalender from "./shadcn-components/MyCalender";
+import MyCard from "./shadcn-components/MyCard";
+
 // import MyBreadCrumb from "./shadcn-components/MyBreadCrumb";
 
 // import MyBadge from "./shadcn-components/MyBadge";
@@ -12,15 +16,14 @@
 // import MyAccordion from "./shadcn-components/MyAccordion";
 // import MyAspectRatio from "./shadcn-components/MyAspectRatio";
 // import MyAlert from "./shadcn-components/MyAlert";
-// import MyButton from "./shadcn-components/MyButton";
-import MyCalender from "./shadcn-components/MyCalender";
+// import MyCalender from "./shadcn-components/MyCalender";
 
 export default function Home() {
   // const params = useSearchParams()
   // const balance = params.get("balance");
 
   return (
-    <div className="w-[350px]">
+    <div className="w-screen h-screen flex justify-center items-center">
       {/* <MyAccordion /> */}
       {/* <MyAlert /> */}
       {/* {
@@ -32,7 +35,8 @@ export default function Home() {
       {/* <MyBadge title='ShadCN UI' variant="destructive" /> */}
       {/* <MyBreadCrumb /> */}
       {/* <MyButton title="Save" /> */}
-      <MyCalender />
+      {/* <MyCalender /> */}
+      <MyCard title="Card" description="We are using Card Component" content={<MyCalender />} footer={<MyButton title="Button" />}/>
     </div>
   );
 }
